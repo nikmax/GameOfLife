@@ -1,4 +1,5 @@
-	ideal
+;  Anton Sander (c) 1995
+ideal
 	locals
 ASSUME	CS:CSeg,DS:DSeg,ES:DSeg,SS:SSeg
 
@@ -331,7 +332,7 @@ PROC	ZelleSetzen
 	push	dx
 	call	ZeigerBewegen
 	mov	ah,0Ah
-	mov	al,'Û'
+	mov	al,'Ã›'
 	mov	bh,0
 	mov	cx,2
 	int	10h
